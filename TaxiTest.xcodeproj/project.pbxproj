@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9BF1F5981E53B4C3006EF793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1F5971E53B4C3006EF793 /* AppDelegate.swift */; };
-		9BF1F59A1E53B4C3006EF793 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9BF1F5991E53B4C3006EF793 /* GameScene.sks */; };
-		9BF1F59C1E53B4C3006EF793 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9BF1F59B1E53B4C3006EF793 /* Actions.sks */; };
 		9BF1F59E1E53B4C3006EF793 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1F59D1E53B4C3006EF793 /* GameScene.swift */; };
 		9BF1F5A01E53B4C3006EF793 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1F59F1E53B4C3006EF793 /* GameViewController.swift */; };
 		9BF1F5A31E53B4C3006EF793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF1F5A11E53B4C3006EF793 /* Main.storyboard */; };
@@ -17,6 +15,8 @@
 		9BF1F5A81E53B4C3006EF793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF1F5A61E53B4C3006EF793 /* LaunchScreen.storyboard */; };
 		9BF1F5B31E53B4C3006EF793 /* TaxiTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1F5B21E53B4C3006EF793 /* TaxiTestTests.swift */; };
 		9BF1F5BE1E53B4C4006EF793 /* TaxiTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1F5BD1E53B4C4006EF793 /* TaxiTestUITests.swift */; };
+		9BF1F5CC1E53B6EC006EF793 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 9BF1F5CB1E53B6EC006EF793 /* Sounds */; };
+		9BF1F5CE1E53BC87006EF793 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1F5CD1E53BC87006EF793 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 /* Begin PBXFileReference section */
 		9BF1F5941E53B4C3006EF793 /* TaxiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF1F5971E53B4C3006EF793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BF1F5991E53B4C3006EF793 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		9BF1F59B1E53B4C3006EF793 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		9BF1F59D1E53B4C3006EF793 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		9BF1F59F1E53B4C3006EF793 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		9BF1F5A21E53B4C3006EF793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +51,8 @@
 		9BF1F5B91E53B4C4006EF793 /* TaxiTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF1F5BD1E53B4C4006EF793 /* TaxiTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiTestUITests.swift; sourceTree = "<group>"; };
 		9BF1F5BF1E53B4C4006EF793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF1F5CB1E53B6EC006EF793 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = ../../../../Downloads/SpriteKitSimpleGameResources/Sounds; sourceTree = "<group>"; };
+		9BF1F5CD1E53BC87006EF793 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +103,10 @@
 		9BF1F5961E53B4C3006EF793 /* TaxiTest */ = {
 			isa = PBXGroup;
 			children = (
+				9BF1F5CB1E53B6EC006EF793 /* Sounds */,
 				9BF1F5971E53B4C3006EF793 /* AppDelegate.swift */,
-				9BF1F5991E53B4C3006EF793 /* GameScene.sks */,
-				9BF1F59B1E53B4C3006EF793 /* Actions.sks */,
 				9BF1F59D1E53B4C3006EF793 /* GameScene.swift */,
+				9BF1F5CD1E53BC87006EF793 /* GameOverScene.swift */,
 				9BF1F59F1E53B4C3006EF793 /* GameViewController.swift */,
 				9BF1F5A11E53B4C3006EF793 /* Main.storyboard */,
 				9BF1F5A41E53B4C3006EF793 /* Assets.xcassets */,
@@ -242,10 +242,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BF1F5A31E53B4C3006EF793 /* Main.storyboard in Resources */,
-				9BF1F59A1E53B4C3006EF793 /* GameScene.sks in Resources */,
 				9BF1F5A51E53B4C3006EF793 /* Assets.xcassets in Resources */,
+				9BF1F5CC1E53B6EC006EF793 /* Sounds in Resources */,
 				9BF1F5A81E53B4C3006EF793 /* LaunchScreen.storyboard in Resources */,
-				9BF1F59C1E53B4C3006EF793 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +271,7 @@
 			files = (
 				9BF1F59E1E53B4C3006EF793 /* GameScene.swift in Sources */,
 				9BF1F5A01E53B4C3006EF793 /* GameViewController.swift in Sources */,
+				9BF1F5CE1E53BC87006EF793 /* GameOverScene.swift in Sources */,
 				9BF1F5981E53B4C3006EF793 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
